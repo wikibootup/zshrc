@@ -1,6 +1,6 @@
 # Shortcuts for Git
-alias gadd='git add'
-alias gc='git commit'
-alias gm='git commit -m'
-alias gd='git diff'
-alias gs='git status'
+alias a="git add"
+alias c="git commit"
+alias m="git commit -m"
+alias d="git diff"
+alias s="git status"
