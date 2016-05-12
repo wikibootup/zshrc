@@ -1,5 +1,5 @@
 # Basic oh-my-zsh plugins
-plugins=(autoenv)
+plugins=(git autoenv)
 
 # Zsh plugin manager, zplug
 # https://github.com/zplug/zplug
@@ -14,4 +14,5 @@ if ! zplug check --verbose; then
 fi
 
 # Then, source plugins and add commands to $PATH
-zplug load
+# "zplug load" without $ causes an error in git packages
+$(zplug load)
