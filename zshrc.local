@@ -1,0 +1,23 @@
+# Antigen activation
+if [ -f "$HOME/.antigen.zsh" ]; then
+  source "$HOME/.antigen.zsh"
+
+  if [ -f "$HOME/.antigen-bundles.zsh" ]; then
+    source "$HOME/.antigen-bundles.zsh"
+  fi
+
+  antigen apply
+fi
+
+# Virtualenv for Python
+source /usr/local/opt/autoenv/activate.sh
+
+# Explicit load env for TMUX
+if [ -f ".env" ]; then
+  source .env
+fi
+
+# Load aliasing configurations
+if [ -f "$HOME/.aliases" ]; then
+  source $HOME/.aliases
+fi
