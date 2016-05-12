@@ -1,5 +1,5 @@
 # Basic oh-my-zsh plugins
-plugins=(git autoenv)
+plugins=(autoenv)
 
 # Zsh plugin manager, zplug
 # https://github.com/zplug/zplug
