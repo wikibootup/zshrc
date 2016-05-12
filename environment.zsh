@@ -15,3 +15,12 @@ mkdir -p $ZSH_CACHE
 export PATH=/usr/local/sbin:$PATH
 export PATH=$HOME/.local/bin:$PATH
 export PATH=$HOME/.local/sbin:$PATH
+
+# Explicit load env for TMUX
+if [ -f ".env" ]; then
+  source .env
+fi
+
+# Zsh plugin manager
+export ZPLUG_HOME=/usr/local/opt/zplug
+source $ZPLUG_HOME/init.zsh
