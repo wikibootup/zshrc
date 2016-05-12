@@ -9,7 +9,7 @@ Then
 echo "source \$HOME/.config/zsh/zshrc" >> $HOME/.zshrc
 ```
 
-References
+Sources & References
 ---
 - https://github.com/seebi/zshrc
 - https://github.com/dahlia/nvimrc
