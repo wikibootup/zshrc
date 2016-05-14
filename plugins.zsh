@@ -3,6 +3,10 @@ plugins=(git autoenv)
 
 # Zsh plugin manager, zplug
 # https://github.com/zplug/zplug
+export ZPLUG_HOME=$HOME/.zplug
+source $ZPLUG_HOME/init.zsh
+
+zplug "zplug/zplug"
 zplug "tonyseek/oh-my-zsh-virtualenv-prompt"
 
 # Install plugins if there are plugins that have not been installed
@@ -13,6 +17,4 @@ if ! zplug check --verbose; then
     fi
 fi
 
-# Then, source plugins and add commands to $PATH
-# "zplug load" without $ causes an error in git packages
-$(zplug load)
+zplug load --verbose

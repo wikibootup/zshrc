@@ -20,7 +20,3 @@ export PATH=$HOME/.local/sbin:$PATH
 if [ -f ".env" ]; then
   source .env
 fi
-
-# Zsh plugin manager
-export ZPLUG_HOME=/usr/local/opt/zplug
-source $ZPLUG_HOME/init.zsh
