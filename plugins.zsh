@@ -9,6 +9,7 @@ source $ZPLUG_HOME/init.zsh
 zplug "zplug/zplug"
 zplug "tonyseek/oh-my-zsh-virtualenv-prompt"
 zplug "felixr/docker-zsh-completion"
+zplug "Tarrasch/zsh-autoenv"
 
 # Install plugins if there are plugins that have not been installed
 if ! zplug check --verbose; then
