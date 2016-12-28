@@ -1,6 +1,7 @@
 alias sl="ls"
 alias tat="tmux attach -t"
 alias tns="tmux new -s"
+alias td="tmux detach"
 
 alias put="python -m unittest -v"
 
