@@ -9,6 +9,9 @@ Then
 echo "source \$HOME/.config/zsh/zshrc" >> $HOME/.zshrc
 ```
 
+### Issues
+    - zplug : installed & configured successfully? [here](https://github.com/zplug/zplug#the-best-way)
+
 Sources & References
 ---
 - https://github.com/seebi/zshrc
