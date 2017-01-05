@@ -10,7 +10,7 @@ echo "source \$HOME/.config/zsh/zshrc" >> $HOME/.zshrc
 ```
 
 ### Issues
-    - zplug : installed & configured successfully? [here](https://github.com/zplug/zplug#the-best-way)
+zplug : installed & configured successfully? [here](https://github.com/zplug/zplug#the-best-way)
 
 Sources & References
 ---
