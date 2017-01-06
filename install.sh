@@ -24,15 +24,4 @@ else
   echo "Zsh already configured"
 fi
 
-# Download zplug, zsh plugin manager
-zplug_home="$HOME/.zplug"
-zplug_home_brew="/usr/local/opt/zplug"
-echo "Zplug directory: $zplug_home"
-if [[ ! -d "$zplug_home" && ! -d "$zplug_home_brew" ]]
-then
-  git clone https://github.com/zplug/zplug $zplug_home
-else
-  echo "Zplug already installed."
-fi
-
 echo "Completed!"
