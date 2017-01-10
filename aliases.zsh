@@ -11,3 +11,7 @@ alias jekyll-exec="bundle exec jekyll serve --watch"
 
 alias vi="nvim"
 alias vim="nvim"
+
+# If not working ctags on MAC OSX
+# http://www.gmarik.info/blog/2010/ctags-on-OSX/
+alias ctags="`brew --prefix`/bin/ctags"
