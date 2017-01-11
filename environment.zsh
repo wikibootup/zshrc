@@ -20,3 +20,6 @@ export PATH=$HOME/.local/sbin:$PATH
 if [ -f ".env" ]; then
   source .env
 fi
+
+# autoenv
+source /usr/local/opt/autoenv/activate.sh
