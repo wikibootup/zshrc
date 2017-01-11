@@ -16,6 +16,9 @@ export PATH=/usr/local/sbin:$PATH
 export PATH=$HOME/.local/bin:$PATH
 export PATH=$HOME/.local/sbin:$PATH
 
+# Postgres instructions including 'psql'
+export PATH="/Applications/Postgres.app/Contents/Versions/latest/bin:$PATH"
+
 # Explicit load env for TMUX
 if [ -f ".env" ]; then
   source .env
