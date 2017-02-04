@@ -26,3 +26,6 @@ fi
 
 # autoenv
 source /usr/local/opt/autoenv/activate.sh
+
+# For tmux
+if [[ $TERM == xterm ]]; then TERM=xterm-256color; fi
