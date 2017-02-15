@@ -15,3 +15,6 @@ alias vim="nvim"
 # If not working ctags on MAC OSX
 # http://www.gmarik.info/blog/2010/ctags-on-OSX/
 alias ctags="`brew --prefix`/bin/ctags"
+
+alias ta="tmux attach -t"
+alias tn="tmux new -s"
