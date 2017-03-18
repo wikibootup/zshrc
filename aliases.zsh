@@ -18,3 +18,6 @@ alias ctags="`brew --prefix`/bin/ctags"
 
 alias ta="tmux attach -t"
 alias tn="tmux new -s"
+
+#FZF
+alias fz="FZF"
