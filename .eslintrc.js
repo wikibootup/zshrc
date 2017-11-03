@@ -1,6 +1,9 @@
 module.exports = {
   'extends': 'eslint:all',
   'rules': {
+    // essential
+    'indent': 0,
+
     // comment
     'capitalized-comments': 0,
     'spaced-comment': 0,
@@ -9,10 +12,15 @@ module.exports = {
     'no-warning-comments': 0,
     'lines-around-comment': 0,
 
-    'block-spacing': 0,
+    // selective
+    // 'comma-dangle': 0,
+    // 'block-spacing': 0,
+
+    'no-multi-assign': 0,
+    'func-name-matching': 0,
     'no-param-reassign': 0,
     'keyword-spacing': 0,
-    'indent': 0,
+    'no-tabs': 0,
     'no-undef': 0,
     'padded-blocks': 0,
     'comma-style': 0,
@@ -109,6 +117,11 @@ module.exports = {
     'one-var-declaration-per-line': 0,
     'no-unneeded-ternary': 0,
     'no-useless-return': 0,
-    'no-unused-vars': 0
+    'no-unused-vars': 0,
+    'default-case': 0,
+    'dot-location': 0,
+    'semi-style': 0,
+    'array-bracket-spacing': 0,
+    'callback-return': 0
   }
 };
