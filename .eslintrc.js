@@ -122,6 +122,7 @@ module.exports = {
     'dot-location': 0,
     'semi-style': 0,
     'array-bracket-spacing': 0,
-    'callback-return': 0
+    'callback-return': 0,
+    'comma-dangle': 0
   }
 };

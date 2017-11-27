@@ -88,6 +88,7 @@
 
     // added by wikibootup
     "esversion"     : 6,
+    "latedef": "nofunc",
 
     // Custom Globals
     "globals"       : {}        // additional predefined global variables
