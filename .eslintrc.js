@@ -124,6 +124,7 @@ module.exports = {
     'array-bracket-spacing': 0,
     'callback-return': 0,
     'comma-dangle': 0,
-    'consistent-this': 0
+    'consistent-this': 0,
+    'no-implicit-coercion': 0
   }
 };
