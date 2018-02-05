@@ -5,7 +5,7 @@
 # - https://github.com/dahlia/nvimrc
 
 # source all the zsh configurations
-zsh_dir="$HOME/.config/zsh"
+zsh_dir="$HOME/.config/zshrc"
 source "$zsh_dir/environment.zsh"
 source "$zsh_dir/aliases.zsh"
 source "$zsh_dir/plugins.zsh"
