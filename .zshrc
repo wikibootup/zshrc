@@ -22,6 +22,13 @@ source $ZSH/oh-my-zsh.sh
 # https://github.com/rupa/z
 source "$zsh_dir/z.sh"
 
+
+# pyenv
+export PYENV_ROOT="$HOME/.pyenv"
+export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init -)"
+
+
 # @NOTE - It makes zsh init slow. Therefore it was commented.
 # NVM : Node version manager
 # https://github.com/creationix/nvm
