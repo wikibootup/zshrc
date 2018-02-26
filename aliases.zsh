@@ -21,3 +21,7 @@ alias tn="tmux new -s"
 
 #FZF
 alias fz="FZF"
+
+#GIT
+alias gst="git status"
+alias gcm="git commit -m"
