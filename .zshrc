@@ -4,16 +4,17 @@
 # - https://github.com/seebi/zshrc
 # - https://github.com/dahlia/nvimrc
 
+# oh-my-zsh settings
+# @NOTE - It should be placed at the top
+export ZSH=$HOME/.oh-my-zsh
+ZSH_THEME="agnoster"
+source $ZSH/oh-my-zsh.sh
+
 # source all the zsh configurations
 zsh_dir="$HOME/.config/zshrc"
 source "$zsh_dir/environment.zsh"
 source "$zsh_dir/aliases.zsh"
 source "$zsh_dir/plugins.zsh"
-
-# oh-my-zsh settings
-export ZSH=$HOME/.oh-my-zsh
-ZSH_THEME="agnoster"
-source $ZSH/oh-my-zsh.sh
 
 # FZF
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
@@ -27,7 +28,6 @@ source "$zsh_dir/z.sh"
 export PYENV_ROOT="$HOME/.pyenv"
 export PATH="$PYENV_ROOT/bin:$PATH"
 eval "$(pyenv init -)"
-
 
 # @NOTE - It makes zsh init slow. Therefore it was commented.
 # NVM : Node version manager
