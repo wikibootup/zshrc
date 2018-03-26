@@ -20,7 +20,7 @@ alias ta="tmux attach -t"
 alias tn="tmux new -s"
 
 #FZF
-alias fz="FZF"
+#alias fz="FZF"
 
 #GIT
 alias ga="git add"

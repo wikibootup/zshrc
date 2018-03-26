@@ -32,4 +32,4 @@ if [[ $TERM == xterm ]]; then TERM=xterm-256color; fi
 
 #Ripgrep integration with FZF to speed up
 #https://medium.com/@crashybang/supercharge-vim-with-fzf-and-ripgrep-d4661fc853d2#.dyo5kwso4
-export FZF_DEFAULT_COMMAND='rg --files --no-ignore --hidden --follow --glob "!.git/*"'
+# export FZF_DEFAULT_COMMAND='rg --files --no-ignore --hidden --follow --glob "!.git/*"'
