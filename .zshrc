@@ -11,7 +11,7 @@ ZSH_THEME="agnoster"
 source $ZSH/oh-my-zsh.sh
 
 # source all the zsh configurations
-zsh_dir="$HOME/.config/zshrc"
+zsh_dir="$HOME/.config/zsh"
 source "$zsh_dir/environment.zsh"
 source "$zsh_dir/aliases.zsh"
 source "$zsh_dir/plugins.zsh"
