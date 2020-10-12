@@ -1,4 +1,4 @@
-# zshrc
+# zsh
 
 Sources & References
 ---
