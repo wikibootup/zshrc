@@ -39,3 +39,8 @@ export PATH="/usr/local/opt/mysql@5.6/bin:$PATH"
 
 # For rabbitmq-server
 export PATH=$PATH:/usr/local/sbin
+
+# Terminal history by up/down arrow key
+export HISTCONTROL=ignoreboth
+# After each command, save and reload history
+export PROMPT_COMMAND="history -a; history -c; history -r; $PROMPT_COMMAND"
