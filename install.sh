@@ -9,19 +9,8 @@ then
   sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 fi
 
-# Link zsh configuration to ~/.config/zsh
-zshrc_name="zhsrc"
-src_zshrc_dir="$(pwd)"
-src_zshrc="$src_zsh_dir/$zshrc_name"
-dst_zsh_dir="$HOME/.config/zsh"
-dst_zshrc="$dst_zsh_dir/$zshrc_name"
-echo "Zsh configuration directory: $dst_zsh_dir"
-if [[ ! -f "$dst_zshrc" || "$(cat "$src_zshrc")" != "$(cat "$dst_zshrc")" ]]
-then
-  rm -f "$dst_zsh_dir"
-  ln -sfi "$src_zshrc_dir" "$dst_zsh_dir"
-else
-  echo "Zsh already configured"
-fi
+# Install plugins using oh-my-zsh
+git clone https://github.com/agkozak/zsh-z.git $oh_my_zsh/plugins/z
 
-echo "Completed!"
+ln -s $HOME/dotfiles/zshrc/.zshrc $HOME/.zshrc
+
