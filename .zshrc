@@ -17,7 +17,7 @@
   source "$zsh_dir/plugins.zsh"
 
   # Brew packages list (github.com/wikibootup/dotfiles/brew-packages.txt)
-  . $HOMEBREW_PREFIX/etc/profile.d/z.sh
+  . $HOMEBREW_PREFIX/etc/profile.d/z.sh  # z {name}  // Go to a path that contains name
   . $HOMEBREW_PREFIX/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
   # pyenv
