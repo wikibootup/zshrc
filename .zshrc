@@ -18,6 +18,7 @@
 
   # Brew packages list (github.com/wikibootup/dotfiles/brew-packages.txt)
   . $HOMEBREW_PREFIX/etc/profile.d/z.sh
+  . $HOMEBREW_PREFIX/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
   # pyenv
   eval "$(pyenv init -)"
