@@ -16,8 +16,8 @@
   source "$zsh_dir/aliases.zsh"
   source "$zsh_dir/plugins.zsh"
 
-  # FZF
-  # [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh  # Download required
+  # Brew packages list (github.com/wikibootup/dotfiles/brew-packages.txt)
+  . $HOMEBREW_PREFIX/etc/profile.d/z.sh
 
   # pyenv
   eval "$(pyenv init -)"
