@@ -6,9 +6,9 @@
 
   # oh-my-zsh settings
   # @NOTE - It should be placed at the top
-  export ZSH=$HOME/.oh-my-zsh
+  export OH_MY_ZSH_PATH=$HOME/.oh-my-zsh
   ZSH_THEME="agnoster"
-  source $ZSH/oh-my-zsh.sh
+  source $OH_MY_ZSH_PATH/oh-my-zsh.sh
 
   # source all the zsh configurations
   zsh_dir="$HOME/dotfiles/zshrc"
